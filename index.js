@@ -103,7 +103,7 @@ shippingAndReturnTab.addEventListener("click", function(event) {
 let hoodieImages = document.querySelectorAll('.hoddie-images img');
 hoodieImages = [...hoodieImages]
 // Get the product image container
-const productImage = document.querySelector('.product-image img');
+const productImage = document.getElementById('active-image');
 
 
 // Loop through each image and add a click event listener
