@@ -824,9 +824,14 @@ nav ul li a.active {
 
 
 @media screen and (max-width:600px){
-    body{
+    /* body{
+        overflow: hidden;
+    } */
+     .body, html{
+        width: 100%;
         overflow-x: hidden;
-    }
+        border: 1px solid red;
+     }
     .stock img{
         display: none;
     }
